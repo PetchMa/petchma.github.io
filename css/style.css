@@ -151,6 +151,7 @@ button {
  
    float:right;
    white-space:nowrap;
+   padding-right: 2%;
 }
 .project_case {
     border-radius: 25px;
@@ -241,5 +242,22 @@ button {
     width:200px;
     height:auto;
   }
+  .stamp{
+    width: auto;
+    height: 90px;
+    padding-left: 0;
+    padding-top: 5%;
+}
+.menu{
+  font-size: 10px  !important;
+  font-weight: 800;
+  vertical-align: bottom;
+  font-weight: 500;
+  font-family: FuturaPT,Helvetica,Arial,sans-serif;
+  text-align: left !important;
+  color: #b3b3b3;
+  padding-left: 0%;
+  padding-right: 1%;
+}
 
 }
