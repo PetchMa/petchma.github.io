@@ -1,0 +1,228 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+    <title>Peter Ma</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='js/plotly-latest.min.js'></script>
+
+    <script src='js/d3.min.js'> </script>
+    <script src="js/plot.js"></script>
+    <script src="js/toggle.js"></script>
+
+    </head>
+    <body>
+    <div class="page_setup">
+    <div class="container">
+        <div class="row ">
+            <div id="nav">
+ 
+            </div>
+            
+            
+                    <div class="row " style="padding-top:5%!important ; padding-left: 2%; padding-right: 2%;">
+                        
+                        <div class="col-md-8 mobile " style="padding-top:5%!important">
+                        <p>
+                            Hey there! 👋 I'm a first year student at the University of Toronto and <a href="https://laidlawscholars.network/users/peter-ma">
+                                Laidlaw Scholar </a>
+                            who's into machine learning, astronomy, and academic research.
+                        </p>
+                    
+                        <p>
+                            Currently, I'm an intern researcher at the <a href="https://seti.berkeley.edu/">UC Berkeley SETI Research Center </a> funded by the 
+                            <a href="https://breakthroughinitiatives.org/about">Breakthrough Listen Initative</a> 
+                            to develop deep learning algorithms on high performance computers 
+                            to help search the nearest 1 million stars for signs of life beyond Earth. 
+                            I'm grateful to be working 
+                            under the supervision of both <a href="https://www.dunlap.utoronto.ca/dunlap-people/dr-cherry-ng/">Dr. Cherry Ng 
+                            </a> and <a href="https://en.wikipedia.org/wiki/Andrew_Siemion"> Dr. Andrew Siemion</a> 
+                            and to work alongside the Breakthrough Listen team on this incredible project. The end goal is to 
+                            build the first ever SETI search pipeline for both the <a href="https://en.wikipedia.org/wiki/Very_Large_Array">VLA</a> 
+                            and <a href="https://en.wikipedia.org/wiki/MeerKAT">
+
+                            MeerKAT telescope. </a> We're bringing together
+                            some of the most powerful instruments to tackle the question of "are we alone in the universe?"
+                        </p>
+                        <div id="about">
+                            
+                        </div>
+                        <p>
+                            My previous project with the team was to build a hybrid petascale cloud computing pipeline to dynamically 
+                            scale the search for life beyond Earth. I worked on the network architecture, UI and the algorithm packages used for  
+                            radio astronomy. This done under the supervision of 
+                            <a href="http://w.astro.berkeley.edu/~scroft/"> Dr. Steve Croft!</a> 
+                        </p>
+                        <p>
+                            Find me \(\Rightarrow \) Email: <a href="peterxiangyuanma@gmail.com">peterxiangyuanma [at] gmail [dot] com</a> and Twitter <a href="https://twitter.com/peterma02">@peterma02.</a>
+                        </p>
+                        <p>
+                            I also boulder/rock climb pretty often, hit me up if you're also into that kind of stuff! 
+                            <a href="https://www.youtube.com/watch?v=CqDSv1k_TWM&feature=youtu.be">Watch me climb!</a>
+                        </p>
+                    
+                        <p>
+                            <i>Here are a few quick things about me:
+                        </i>
+                        </p>
+                        <div class="row" style="padding-left: 2%;">
+                            <button id="experience_button" onclick="myFunction('Experience', 'experience_button')">
+                                <B style="font-size: 22px;"><i>Experience</i></B>  <img src="img/up.PNG" style="width: 10px">
+                            </button>
+                            <div id="Experience" style="display: none; padding-top: 1%; ">
+                                <p style="padding-left: 5%; ">
+
+                     
+                                <a  href="http://seti.berkeley.edu/" >Current: Intern Researcher @ UC Berkeley SETI Research Center - June 2020</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-left: 2%;">
+                            <button id="education_button" onclick="myFunction('Education', 'education_button')">
+                                <B style="font-size: 22px;"><i>Education</i></B>  <img src="img/up.PNG" style="width: 10px">
+                            </button>
+                            <div id="Education" style="display: none; padding-top: 1%;">
+                                <p style="padding-left: 5%; ">
+                                    University of Toronto - Pure Math and Physics 2024
+                                </p>
+                                <p style="padding-left: 5%;  ">
+                                    Unionville High School 2020
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="row" style="padding-left: 2%;">
+                            <button id="Awards_button" onclick="myFunction('Awards', 'Awards_button')" >
+                                <B style="font-size: 22px;"><i>Awards</i></B>  <img src="img/up.PNG" style="width: 10px">
+                            </button>
+                            <div id="Awards" style="display: none; padding-top: 1%;">
+                                <p style="padding-left: 5%; ">
+                                    <a href="https://laidlawscholars.network/users/peter-ma"  >
+                                    Laidlaw Research Scholar - 2021 April</a>
+                                    </p>
+                                <p style="padding-left: 5%; ">
+                                <a href="https://www.marsinstitute.no/" >
+                                Mars Institute Honorary Distinction Award - 2020 June</a>
+                                </p>
+                                <p style="padding-left: 5%; ">
+                                <a href="https://www.insposcience.com/project.html?id=1592332448679" >
+                                Silver Medalist and Best of Physical Sciences - IRIC INSPOScience Fair [North America] 2020 June
+                            </a>
+                                </p>
+                                <p style="padding-left: 5%; ">
+                                <a href="McHacks Hackathon @ McGill MLH Award- 2020 Feb" >
+                                    McHacks Hackathon @ McGill MLH Award- 2020 Feb   
+                                </a>                         </p>
+                                <p style="padding-left: 5%; ">
+                                    <a href="https://devpost.com/software/livelihood" >
+                                        Hack the Hammer 2 @ McMaster Best Design Award - 2019 Dec   </a> </p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-left: 2%;">
+                            <button id="coding_button" onclick="myFunction('Coding', 'coding_button')" >
+                                <B style="font-size: 22px;"><i>Coding</i></B>  <img src="img/up.PNG" style="width: 10px">
+                            </button>
+                            <div id="Coding" style="display: none; padding-top: 1%;">
+                                <p style="padding-left: 5%; ">
+                                Python 3 🐍 [proficient]- TF, Numpy, Pytorch, Flask, Pandas etc.
+                            </p>
+                                
+                            <p style="padding-left: 5%;  padding-top: 1%;">
+                                Java 11 LTS ☕ [proficient]
+                            </p>
+                            <p style="padding-left: 5%; ">
+                                HTML CSS [proficient]- Bootstrap and Responsive Design
+                            </p>
+                            <p style="padding-left: 5%;">
+                                Javascript [Workable/learning]- React and React Native
+                            </p>
+                                <p style="padding-left: 5%; ">
+                                FORTRAN [Workable/learning]
+                            </p>
+                            <p style="padding-left: 5%;">
+                                C [learning]
+                            </p>
+                            <p style="padding-left: 5%; ">
+                                Matlab [Learning]
+                            </p>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-left: 2%;">
+                            <button id="Socials_button" onclick="myFunction('Socials', 'Socials_button')" >
+                                <B style="font-size: 22px;"><i>Socials</i></B>  <img src="img/up.PNG" style="width: 10px">
+                            </button>
+                            <div id="Socials" style="display: none; padding-top: 1%;">
+                                <p style="padding-left: 5%; ">
+                                    <a href="https://twitter.com/peterma02" >
+                                        Twitter [@peterma02]</a>
+                                    </p>
+                                <p style="padding-left: 5%; ">
+                                <a href="https://github.com/PetchMa" >
+                                    Github [@Petchma]</a>
+                                </p>
+                                <p style="padding-left: 5%;">
+                                <a href="https://www.linkedin.com/in/peter-ma-37a917162/" >
+                                    Linkedin [Peter Ma]
+                            </a>
+                                </p>
+                            
+                            </div>
+                            </div>
+                            <p>
+                                &nbsp;
+                            </p>
+                            <p>
+                                &nbsp;
+                            </p>
+                            <p>
+                                &nbsp;
+                            </p>
+                            <p>
+                                &nbsp;
+                            </p>
+                            <p>
+                                &nbsp;
+                            </p>
+                            <p>
+                                &nbsp;
+                            </p>
+                            <p>
+                                &nbsp;
+                            </p>
+                            
+                            <footer style="text-align: center;">
+                                <p>
+                                    Made by <a href="https://twitter.com/peterma02" >
+                                    @peterma02 </a>- 2021 
+                                </p>
+                            </footer>
+                            <p>
+                                &nbsp;
+                            </p>
+                        </div>
+                    </div>
+        
+        </div>
+    </div>
+    </div>
+
+    </body>
+    <script src="js/mobile_selector.js"></script>
+    </html>

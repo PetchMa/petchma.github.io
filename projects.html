@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+<title>Peter Ma</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<link rel="stylesheet" href="css/style.css">
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src='js/plotly-latest.min.js'></script>
+
+<script src='js/d3.min.js'> </script>
+<script src="js/plot.js"></script>
+<script src="js/toggle.js"></script>
+
+</head>
+<body>
+<div class="page_setup">
+<div class="container">
+    <div class="row ">
+        <div id="nav">
+
+        </div>
+        
+        
+            <div class="row " style="padding-top:5%!important ; padding-left: 2%; padding-right: 2%;">
+                    
+                <div class="col-md-8 mobile " style="padding-top:5%!important">
+                    <p>
+                        Here are some of the projects I've been working on recently. If you got any questions on the work 
+                        I'm doing feel free to shoot me an email or DM on twitter, always open to chat!
+                    </p>
+                    <p>
+                        &nbsp;
+                    </p>
+
+                    <div class="project_case">
+                        <h1 class="project_heading">
+                            Breakthrough listen @ Scale - UC Berkeley
+                        </h1>
+                        <div style="text-align: center;">
+                            <img class="project_img" src="img/projects/diagram.png">
+                        </div>
+                        <p>
+                            My team built a cloud base infastructure to handle petabytes worth of computing demand from the UC Berkeley SETI Research Center. 
+                            We scale, and deploy Astronomy search algorithms with technologies like GCP and Kubernetes etc.
+                        </p>
+                        <p>
+                            Check it out <a href="seti.berkeley.edu/bl-scale">
+                                here
+                            </a>
+                        </p>
+                    </div>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <div class="project_case">
+                        <h1 class="project_heading">
+                            DeepSeti - Breakthrough Listen ☄️
+                        </h1>
+                        <div style="text-align: center;">
+                            <img class="project_img" src="img/projects/animation.gif">
+                        </div>
+                        <p>
+                            This is a python implementation of DeepSeti - an algorithm designed to detect anomalies for radio telescope data open sourced by Breakthrough Listen. These python scripts facilitates the custom architecture and training loops required for the DeepSeti algorithm to preform a multichannel search for anomalies. Main objective is to develop software that increases the computational sensitivity and speed to search for anomalies.
+                        </p>
+                        <p>
+                            Check it out <a href="https://github.com/PetchMa/DeepSeti">
+                                here
+                            </a>
+                        </p>
+                    </div>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <div class="project_case">
+                        <h1 class="project_heading">
+                            Pulsar Searching - From Scratch
+                        </h1>
+                        <div style="text-align: center;">
+                            <img class="project_img" src="img/projects/can_3.gif">
+                        </div>
+                        <p>
+                            Pulsar searching is a very time and compute intensive task. Searching for repeating signals within noisy data is a difficult issue alone, plus the massive volume of data and you got yourself a very difficult problem. We apply the discrete fourier transforms and folding algorithms to profile the pulsar.
+                        </p>
+                        <p>
+                            Check it out <a href="https://github.com/PetchMa/Pulsar_Folding">
+                                here
+                            </a>
+                        </p>
+                    </div>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <div class="project_case">
+                        <h1 class="project_heading">
+                            Non-Negative Matrix Factoring -Fortran
+                        </h1>
+                        <div style="text-align: center;">
+                            <img class="project_img" src="img/projects/galaxy.gif">
+                        </div>
+                        <p>
+                            This is the FORTRAN implementation of the non-negative matrix factoring algorithm intended for feature extraction for higher dimensional clustering or unsupervised learning techniques. This algorithm implemented a multiplicative update method to approximate the factors of the input matrix. The animation above is an example output my algorithm gave in attempts to recreated the original image. K rank will determine the factor of compression. Factor of WH/(WK+HK) compression!
+                        </p>
+                        <p>
+                            Check it out <a href="https://github.com/PetchMa/non-neg_matrix_factorization">
+                                here
+                            </a>
+                        </p>
+                    </div>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <div class="project_case">
+                        <h1 class="project_heading">
+                            Radio Telescope Build - Ku Band 📡
+                        </h1>
+                        <div style="text-align: center;">
+                            <img class="project_img" src="img/projects/radioTelescope_1.jpeg">
+                        </div>
+
+                        <p>
+                            I built a mini radio telescope by measuring voltage changes through a salvaged satellite dish and a raspberry pi. Simple python scripts to measure and interact with the hardware and collect data.                        </p>
+                        <p>
+                            Check it out <a href="https://github.com/PetchMa/RadioTelescopeCode">
+                                here
+                            </a>
+                        </p>
+                    </div>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <div class="project_case">
+                        <h1 class="project_heading">
+                            Java Reinforcement Learning - From Scratch
+                        </h1>
+                        <div style="text-align: center;">
+                            <img class="project_img" src="img/projects/maze.png">
+                        </div>
+                        <p>
+                            I decided to code an RL agent to find the optimal path through a maze to a cheese. I finished the project with no libraries or enviroment to challenge myself. Works great! Issue is that if given a grid size > 10x10, Q learning fails. 😅                        <p>
+                            Check it out <a href="https://github.com/PetchMa/MazeReinforcementLearning">
+                                here
+                            </a>
+                        </p>
+                    </div>
+                    <p>
+                        &nbsp;
+                    </p>
+                
+                   
+                    
+                    <p>
+                        &nbsp;
+                    </p>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <p>
+                        &nbsp;
+                    </p>
+                    
+                    <footer style="text-align: center;">
+                        <p>
+                            Made by <a href="https://twitter.com/peterma02" >
+                            @peterma02 </a>- 2021 
+                        </p>
+                    </footer>
+                    <p>
+                        &nbsp;
+                    </p>
+                </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+</body>
+<script src="js/mobile_selector_project.js"></script>
+</html>
