@@ -111,6 +111,7 @@ const About1 = `
 </p>
 <div class="row">
     <div class="col-md-8">
+    
         <div class="plot"id='myDiv' style="height: 300px;"><!-- Plotly chart will be drawn inside this DIV --></div>
 
     </div>
