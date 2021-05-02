@@ -131,7 +131,7 @@ const About1 = `
     </div>
 </div>
 `
-
+const About2 = null
 
 function setNavInnerHTML(name){
 

@@ -30,11 +30,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- <script src="https://cdn.plot.ly/plotly-1.42.5.min.js"></script> -->
     <script src='js/d3.min.js'> </script>
-    <script src="js/plotly-latest.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <!-- <script src="js/plotly-latest.min.js"></script> -->
+    <!-- Latest compiled and minified plotly.js JavaScript -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js" charset="utf-8"></script>
 
+    <!-- OR use a specific plotly.js release (e.g. version 1.52.3) -->
+    <script src="https://cdn.plot.ly/plotly-1.52.3.min.js" charset="utf-8"></script>
+
+    <!-- OR an un-minified version is also available -->
+    <script src="https://cdn.plot.ly/plotly-latest.js" charset="utf-8"></script>
     <script src="js/plot.js"></script>
     <script src="js/toggle.js"></script>
-
     </head>
     <body>
     <div class="page_setup">
@@ -61,38 +68,13 @@
                     and to work alongside the Breakthrough Listen team on this incredible project. The end goal is to 
                     build the first ever SETI search pipeline for both the <a href="https://en.wikipedia.org/wiki/Very_Large_Array">VLA</a> 
                     and <a href="https://en.wikipedia.org/wiki/MeerKAT">
-
                     MeerKAT telescope. </a> We're bringing together
                     some of the most powerful instruments to tackle the question of "are we alone in the universe?"
                 </p>
                 <div >
-                    <p>
-                        My research specifically explores how deep neural nets like <a href="https://openreview.net/forum?id=Sy2fzU9gl">
-                            Disentangled \(\beta- \)VAE's</a> can learn astrophysical parameters and signal morphology to help 
-                        characterize events by analyzing their latent feature represenations. Here's a visualization of the learnt 
-                        latent features of a main sequence star <a href="https://eddb.io/system/bodies/7461">\(\text{HIP34024}\)!</a>
-                    </p>
-                    <div class="row">
-                        <div class="col-md-8">
-                        
-                            <div class="plot"id='myDiv' style="height: 300px;"><!-- Plotly chart will be drawn inside this DIV --></div>
-                    
-                        </div>
-                        <div class="col-md-4">
-                            
-                        <br>
-                        </br>
-                         <br>
-                        </br>
-                         <br>
-                        </br>
-                    
-                            <p style="color:#5e5e5e; font-size: 10px;">
-                                Click around and see the structure of features learned by the neural network. The deep neural net was able to 
-                                learn doppler drifiting signals and the shape of signals found in radio spectrograms.  
-                            </p>
-                        </div>
+                    <div id="about">
                     </div>
+                    
                 </div>
                 <p>
                     My previous project with the team was to build a hybrid petascale cloud computing pipeline to dynamically 
@@ -238,8 +220,7 @@
                     </p>
                     <p>
                         &nbsp;
-                    </p>
-                    
+                    </p>  
                     <footer style="text-align: center;">
                         <p>
                             Made by <a href="https://twitter.com/peterma02" >
@@ -251,11 +232,12 @@
                     </p>
                 </div>
             </div>
-        
         </div>
     </div>
     </div>
-
     </body>
     <script src="js/mobile_selector.js"></script>
     </html>
+    <!-- start chrome  --allow-file-access-from-files
+    file:///D:/Personal%20Website%20v2/temp_personal_web/index.html
+    -->
