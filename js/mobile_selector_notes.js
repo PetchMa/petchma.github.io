@@ -66,7 +66,7 @@ const Component2 = `
     <b>
         <a href="./projects.html "  >
             <b>
-       -Projects
+       Projects
     </b>
     </a>
 
