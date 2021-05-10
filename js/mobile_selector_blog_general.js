@@ -1,62 +1,10 @@
 // I'm borrowing the MDN doc notation here: "mql" stands for "media query list".
 const Component1 = `
 <div class="col-md-3 ">
-                <img class="stamp" src="./img/name.png" >
-                <h1 class="menu ">
-                <b>
-                    <a href="./index.html" >
-                        <b>
-                        About
-                    </b>
-                    </a>
-                </h1>
-                <h1 class="menu ">
-                <b>
-                    <a href="./projects.html" >
-                        <b>
-                 Projects
-                </b>
-                </a>
-
-                </h1 >
-                <h1 class="menu">
-                <b>
-
-                    <a href="./notes.html" >
-                        <b>
-                         Notes
-                    </b>
-                    </a>
-                </b>
-                </h1>
-                <h1 class="menu">
-                    <b>
-                        <a href="./blog.html" style="color:  #b80707 !important;  ;">
-                            <b>
-                         -Blog 
-                    </b>
-                        </a>
-                    </b>
-                </h1>
-                </div>
-                <div class="col-md-8 desktop">
-                <span style="display: inline-block">
-                <div class="row mobile">                    
-                    <img class ="profile_pic" src="./img/profile_circle.png" >
-                    <span class="peterma">
-                        Peter Ma
-                    </span>
-                    </span>
-                </div>
-            </div>
-`
-const Component2 = `
-<div class="row" style="padding-top:5%;">
-<div class="right_part">
-<img class="stamp" src="./img/name.png" >
+    <img class="stamp" src="../img/name.png" >
     <h1 class="menu ">
     <b>
-        <a href="./index.html" >
+        <a href="../index.html" >
             <b>
             About
         </b>
@@ -64,34 +12,86 @@ const Component2 = `
     </h1>
     <h1 class="menu ">
     <b>
-        <a href="./projects.html "  >
+        <a href="../projects.html">
             <b>
-       -Projects
+        Projects
+    </b>
+    </a>
+
+    </h1 >
+    <h1 class="menu">
+    <b>
+
+        <a href="../notes.html">
+            <b>
+                Notes
+        </b>
+        </a>
+    </b>
+    </h1>
+    <h1 class="menu" style="color:  #b80707 !important; ">
+        <b>
+            <a href="../blog.html">
+                <b>
+            - Blog 
+        </b>
+            </a>
+        </b>
+    </h1>
+    </div>
+    <div class="col-md-8 desktop">
+    <span style="display: inline-block">
+    <div class="row mobile">                    
+        <img class ="profile_pic" src="../img/profile_circle.png" >
+        <span class="peterma">
+            Peter Ma
+        </span>
+        </span>
+    </div>
+</div>
+`
+const Component2 = `
+<div class="row" style="padding-top:5%;">
+<div class="right_part">
+<img class="stamp" src="../img/name.png" >
+    <h1 class="menu ">
+    <b>
+        <a href="../index.html" >
+            <b>
+            About
+        </b>
+        </a>
+    </h1>
+    <h1 class="menu ">
+    <b>
+        <a href="../projects.html">
+            <b>
+        Projects
     </b>
     </a>
 
     </h1 >
     <h1 class="menu">
         <b>
-            <a href="./notes.html" >
+            <a href="../notes.html">
                 <b>
-                   Notes
+                    Notes
             </b>
             </a>
         </b>
     </h1>
-    <h1 class="menu">
+    <h1 class="menu" style="color:  #b80707 !important; ">
         <b>
-            <a href="./blog.html" style="color:  #b80707 !important;  ;">
+            <a href="../blog.html">
                 <b>
-                -Blog 
+                Blog 
         </b>
             </a>
         </b>
     </h1>
 </div>
 <div class="left_part">
-    <img class ="profile_pic" src="./img/profile_circle.png" >
+    <img class ="profile_pic" src="../img/profile_circle.png" >
 
 
         </div>
