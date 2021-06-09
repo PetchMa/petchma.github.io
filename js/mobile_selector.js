@@ -38,6 +38,8 @@ const Component1 = `
                         </a>
                     </b>
                 </h1>
+		</br>
+		
                 </div>
                 <div class="col-md-8 desktop">
                 <span style="display: inline-block">
