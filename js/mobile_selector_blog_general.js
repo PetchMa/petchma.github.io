@@ -1,3 +1,5 @@
+40 sloc)  3.58 KB
+  
 // I'm borrowing the MDN doc notation here: "mql" stands for "media query list".
 const Component1 = `
 <div class="col-md-3 ">
@@ -17,11 +19,9 @@ const Component1 = `
         Projects
     </b>
     </a>
-
     </h1 >
     <h1 class="menu">
     <b>
-
         <a href="../notes.html">
             <b>
                 Notes
@@ -69,7 +69,6 @@ const Component2 = `
         Projects
     </b>
     </a>
-
     </h1 >
     <h1 class="menu">
         <b>
@@ -92,18 +91,13 @@ const Component2 = `
 </div>
 <div class="left_part">
     <img class ="profile_pic" src="../img/profile_circle.png" >
-
-
         </div>
-
-
     <p class="peterma" style="text-align:center;">
         Peter Ma
     </p>
    </div>
 `
 const About1 = `
-
 <p>
     My research specifically explores how deep neural nets like <a href="https://openreview.net/forum?id=Sy2fzU9gl">Disentangled \\(\\beta- \\)VAE's</a> can learn astrophysical parameters and signal morphology to help 
     characterize events by analyzing their latent feature represenations. Here's a visualization of the learnt 
@@ -112,7 +106,6 @@ const About1 = `
 <div class="row">
     <div class="col-md-8">
         <div class="plot"id='myDiv' style="height: 300px;"><!-- Plotly chart will be drawn inside this DIV --></div>
-
     </div>
     <div class="col-md-4">
         
@@ -122,7 +115,6 @@ const About1 = `
     </br>
      <br>
     </br>
-
         <p style="color:#5e5e5e; font-size: 10px;">
             Click around and see the structure of features learned by the neural network. The deep neural net was able to 
             learn doppler drifiting signals and the shape of signals found in radio spectrograms.  
@@ -159,4 +151,3 @@ if (mobileView) {
   setNavInnerHTML(Component1);
   setAboutInnerHTML(About1);
 }
-
