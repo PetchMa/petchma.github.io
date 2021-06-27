@@ -31,7 +31,7 @@ const Component1 = `
     </h1>
     <h1 class="menu" style="color:  #b80707 !important; ">
         <b>
-            <a href="../blog.html">
+            <a href="../blog.html" style="color:  #b80707 !important; ">
                 <b>
             - Blog 
         </b>
@@ -82,7 +82,7 @@ const Component2 = `
     </h1>
     <h1 class="menu" style="color:  #b80707 !important; ">
         <b>
-            <a href="../blog.html">
+            <a href="../blog.html" style="color:  #b80707 !important; ">
                 <b>
                 Blog 
         </b>
