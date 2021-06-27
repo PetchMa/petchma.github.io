@@ -45,7 +45,6 @@ const Component1 = `
                 <span style="display: inline-block">
                 <div class="row mobile">                    
                     <img class ="profile_pic" src="./img/profile_circle.png" >
-		    
                     <span class="peterma">
                         Peter Ma
                     </span>
