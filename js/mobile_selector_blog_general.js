@@ -12,7 +12,7 @@ const Component1 = `
     </h1>
     <h1 class="menu ">
     <b>
-        <a href="../Research.html">
+        <a href="../research.html">
             <b>
         Research
     </b>
