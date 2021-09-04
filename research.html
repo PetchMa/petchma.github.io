@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+<title>Peter Ma</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157223762-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-157223762-1');
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<link rel="stylesheet" href="css/style.css">
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- <script src="https://cdn.plot.ly/plotly-1.42.5.min.js"></script> -->
+<script src='js/d3.min.js'> </script>
+<script src="https://d3js.org/d3.v4.js"></script>
+<!-- <script src="js/plotly-latest.min.js"></script> -->
+<!-- Latest compiled and minified plotly.js JavaScript -->
+<script src="https://cdn.plot.ly/plotly-latest.min.js" charset="utf-8"></script>
+
+<!-- OR use a specific plotly.js release (e.g. version 1.52.3) -->
+<script src="https://cdn.plot.ly/plotly-1.52.3.min.js" charset="utf-8"></script>
+
+<!-- OR an un-minified version is also available -->
+
+
+<script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+
+<!-- for testing with local version of cytoscape.js -->
+<!--<script src="../cytoscape.js/build/cytoscape.js"></script>-->
+
+<script src="https://unpkg.com/webcola/WebCola/cola.min.js"></script>
+<script src="js/cytoscape-cola.js"></script>
+<script src="js/graph_structure.js"></script>
+</head>
+<body>
+<div class="page_setup">
+<div class="container">
+    <div class="row ">
+        <div id="nav">
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+
+                    <span class="peterma" style="color: #b80707; font-size: 400%; padding-left: 10%; padding-top: 0%;">
+                        <img src="img/name.png" style="width: 10%;"> 
+        
+                         Peter Ma
+                    </span>
+                    
+                </div>
+                <div class="row">
+                    <span class="peterma" style="color: #b80707; font-weight: 100; font-size: 200%; padding-left: 10%;">
+                        Research and Development 
+                   </span>
+                   
+                </div>
+                <div class="row " style="padding-top:2%!important ; padding-left: 10%; padding-right: 5%;">
+                    
+          
+                    <p style="font-size: 20px;">
+                        Peter Ma’s personal research, dev work and projects page with interests in <i>Deep Learning</i>, <i>Computational Astro</i> and 
+                        <i>high performance computing.</i>
+                    </p>
+                    <p>
+                        Current: @ UofT | UC Berkeley &nbsp; &nbsp; &nbsp;  Right: graph construction of multibeam antenna data
+                    </p>
+                    <a class="btn btn-primary" style="background-color: #fff; border-color: #b80707; border-width: 2px;"href="index.html" role="button">
+                        << Home</a>
+                </div>
+            </div>
+           
+                <div id="cy"></div>
+               
+                    
+
+
+                <!-- <img src="img/profile_circle.png" style="width: 300px;"> -->
+          
+        </div>
+
+
+        <div class="row " style="padding-top:0%!important ; padding-left: 5%; padding-right: 2%;">
+            <div class='col-md-4'  style="white-space: normal; padding-top: 5%; padding-bottom: 5%;">
+                <div class="project_case" style="background-color: #b80707; height: 350px !important;">
+                    <p style="color: #fff;">
+                        Coming Soon...
+                    </p>
+                    <h2 class="project_heading" style="text-align: left; color: #fff !important;" >
+                        Geometric
+                        Deep Learning
+                        For Multibeam 
+                        Transient Detection
+                        
+                    </h2>
+                    <p style="color: #fff;">
+                        Details Coming Soon 
+                    </p>
+                    <svg width="100%" height="20px" style="position: absolute; bottom:18%;">
+                        <rect width="30%" height="50%" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(255,255,255)" />
+                      </svg>
+                    
+                    
+                </div>
+            </div>
+            <div class='col-md-4'  style="white-space: normal;padding-top: 5%; padding-bottom: 5%;">
+                <div class="project_case" style="background-color: #850505; border-color: #850505; height: 350px !important;">
+                    <p style="color: #fff;">
+                        Sept 4th 2021 - Aug 30th 2020
+                    </p>
+                    <h2 class="project_heading" style="text-align: left; color: #fff !important;" >
+                        Developing First Deep Learning SETI Search on 936 Targets
+                        
+                    </h2>
+                    <p  style="color: #fff;">
+                        Paper Coming Soon... 
+                    </p>
+                    <svg width="100%" height="20px" style="position: absolute; bottom:18%;">
+                        <rect width="30%" height="50%" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(255,255,255)" />
+                      </svg>
+                    
+                    
+                </div>
+            </div>
+            <div class='col-md-4'  style="white-space: normal; padding-top: 5%; padding-bottom: 5%;">
+                <div class="project_case" style="background-color: #5c0303; border-color: #5c0303; height: 350px !important;">
+                    <p style="color: #fff;">
+                        Aug 30th 2020 - June 15th 2020
+                    </p>
+                    <h2 class="project_heading" style="text-align: left; color: #fff !important;" >
+                        Breakthrough Listen Scale
+                        
+                    </h2>
+                    <p style="color: #fff;">
+                        Kubernetes/cloud accelerated astronomy search platform. Scaling astronomy to the cloud
+                    </p>
+                    <a class="btn btn-primary" style="position: absolute; bottom:18%;background-color:rgba(0,0,0,0); border-color: #fff; border-width: 2px; color: #fff !important;"
+                    href="https://github.com/UCBerkeleySETI/BL-Scale" role="button">
+                        View >>></a>
+                    <!-- <svg width="100%" height="20px" style="position: absolute; bottom:18%;">
+                        <rect width="30%" height="50%" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(255,255,255)" />
+                      </svg> -->
+                    
+                    
+                </div>
+            </div>
+        
+        </div>
+        
+    </div>
+</div>
+</div>
+
+<p>
+    &nbsp;
+</p>
+<p>
+    &nbsp;
+</p>
+<p>
+    &nbsp;
+</p>
+
+<footer style="text-align: center;">
+    <p>
+        Made by <a href="https://twitter.com/peterma02" >
+        @peterma02 </a>- 2021 ©
+    </p>
+</footer>
+<p>
+    &nbsp;
+</p>
+</body>
+
+</html>
+<!-- start chrome  --allow-file-access-from-files
+file:///D:/Personal%20Website%20v2/temp_personal_web/index.html
+-->

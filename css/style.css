@@ -258,3 +258,48 @@ button {
 }
 
 }
+@media only screen and (max-width: 900px) {
+
+#cy {
+  width: 0%;
+  height: 0%;
+  position: absolute;
+  left: 0%;
+  top: 0;
+  z-index: 0;
+  display: none;
+}
+}
+#cy {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  left: 60%;
+  top: 0;
+  z-index: 999;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+.project_case {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.project_case:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
+  background-color: #f20707 !important;
+  border-color: #f20707 !important;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
