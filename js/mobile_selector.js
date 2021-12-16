@@ -105,33 +105,17 @@ const Component2 = `
    </div>
 `
 const About1 = `
+    <p>
+    Previously, my research explored how deep neural nets like 
+    Disentangled \\(\\beta- \\)VAE's
+    can search 820 stars for technosignatures. 
+    My first paper was submited to 
+    <i>Nature Astronomy! </i> In high school I helped build a distributed cloud 
+    computing platform for Astronomy Research with <a href="http://w.astro.berkeley.edu/~scroft/"> Dr. Steve Croft!</a>
+    and <a href="https://fx196.github.io/"> Yuhong Chen </a> 
 
-<p>
-    My research specifically explores how deep neural nets like <a href="https://openreview.net/forum?id=Sy2fzU9gl">Disentangled \\(\\beta- \\)VAE's</a> can learn astrophysical parameters and signal morphology to help 
-    characterize events by analyzing their latent feature represenations. Here's a visualization of the learnt 
-    latent features of a main sequence star <a href="https://eddb.io/system/bodies/7461">\\(\\text{HIP34024}\\)!</a>
-</p>
-<div class="row">
-    <div class="col-md-8">
-    
-        <div class="plot"id='myDiv' style="height: 300px;"><!-- Plotly chart will be drawn inside this DIV --></div>
-
-    </div>
-    <div class="col-md-4">
-        
-    <br>
-    </br>
-     <br>
-    </br>
-     <br>
-    </br>
-
-        <p style="color:#5e5e5e; font-size: 10px;">
-            Click around and see the structure of features learned by the neural network. The deep neural net was able to 
-            learn doppler drifiting signals and the shape of signals found in radio spectrograms.  
-        </p>
-    </div>
-</div>
+    </p>
+     
 `
 const About2 = null
 
@@ -163,3 +147,29 @@ if (mobileView) {
   setAboutInnerHTML(About1);
 }
 
+{/* <p>
+    My research specifically explores how deep neural nets like <a href="https://openreview.net/forum?id=Sy2fzU9gl">Disentangled \\(\\beta- \\)VAE's</a> can learn astrophysical parameters and signal morphology to help 
+    characterize events by analyzing their latent feature represenations. Here's a visualization of the learnt 
+    latent features of a main sequence star <a href="https://eddb.io/system/bodies/7461">\\(\\text{HIP34024}\\)!</a>
+</p> */}
+// <div class="row">
+//     <div class="col-md-8">
+    
+//         <div class="plot"id='myDiv' style="height: 300px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+
+//     </div>
+//     <div class="col-md-4">
+        
+//     <br>
+//     </br>
+//      <br>
+//     </br>
+//      <br>
+//     </br>
+
+//         <p style="color:#5e5e5e; font-size: 10px;">
+//             Click around and see the structure of features learned by the neural network. The deep neural net was able to 
+//             learn doppler drifiting signals and the shape of signals found in radio spectrograms.  
+//         </p>
+//     </div>
+// </div>
