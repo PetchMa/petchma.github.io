@@ -111,8 +111,8 @@ const About1 = `
     can search 820 stars for technosignatures. 
     My first paper was submited to 
     <i>Nature Astronomy! </i> In high school I helped build a distributed cloud 
-    computing platform for Astronomy Research with <a href="http://w.astro.berkeley.edu/~scroft/"> Dr. Steve Croft!</a>
-    and <a href="https://fx196.github.io/"> Yuhong Chen </a> 
+    computing platform for Astronomy Research with <a href="http://w.astro.berkeley.edu/~scroft/"> Dr. Steve Croft</a>
+    and <a href="https://fx196.github.io/"> Yuhong Chen!</a> 
 
     </p>
      
