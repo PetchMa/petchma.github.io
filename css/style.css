@@ -17,7 +17,9 @@
     font-size: 50px;
     font-weight: 500;
     height: 195px;
-    font-family: FuturaPT,Helvetica,Arial,sans-serif;
+    /* font-family: FuturaPT,Helvetica,Arial,sans-serif; */
+    /* font-family: Inter; */
+    font-family: source sans pro,sans-serif ;
     font-weight: 700;
     color: #696969;
     padding-top: 50%;
@@ -35,7 +37,8 @@
     padding-left: 5%;
 }
 .menu a{
-    font-family: FuturaPT,Helvetica,Arial,sans-serif;
+    /* font-family: FuturaPT,Helvetica,Arial,sans-serif; */
+    font-family: source sans pro,sans-serif;
     font-weight:500;
     
     text-decoration:none !important;
@@ -114,7 +117,8 @@ a:hover
      
 }
 p{
-    font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+    /* font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif; */
+    font-family: source sans pro,sans-serif ;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -171,7 +175,8 @@ button {
   }
   h1{
     color: #737373!important;
-    font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif !important;
+    font-family: Inter !important;
+    /* font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif !important; */
     font-size: 2.5rem;
 }
   h2, h3{
@@ -185,7 +190,7 @@ button {
     color: #b1afaf !important;
     font-size:  28px !important;
 }
-  }
+  
   h5{
     color: #b1afaf !important;
     font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif !important;
@@ -200,7 +205,8 @@ button {
   }
 @media only screen and (max-width: 900px) {
     p{
-        font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+        /* font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif; */
+        font-family: source sans pro,sans-serif !important;
         font-size: 15px;
         font-weight: 400;
         line-height: 1.5;
