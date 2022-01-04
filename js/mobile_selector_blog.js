@@ -22,9 +22,9 @@ const Component1 = `
     <h1 class="menu">
     <b>
 
-        <a href="../notes.html">
+        <a href="../art.html">
             <b>
-                Notes
+                Artwork
         </b>
         </a>
     </b>
@@ -73,9 +73,9 @@ const Component2 = `
     </h1 >
     <h1 class="menu">
         <b>
-            <a href="../notes.html">
+            <a href="../art.html">
                 <b>
-                    Notes
+                    Artwork
             </b>
             </a>
         </b>
@@ -84,7 +84,7 @@ const Component2 = `
         <b>
             <a href="../blog.html" style="color:  #b80707 !important; ">
                 <b>
-                Blog 
+                - Blog 
         </b>
             </a>
         </b>
@@ -154,9 +154,9 @@ let mobileView = mql.matches;
 
 if (mobileView) {
   setNavInnerHTML(Component2);
-  setAboutInnerHTML(About2);
+
 } else {
   setNavInnerHTML(Component1);
-  setAboutInnerHTML(About1);
+  
 }
 

@@ -175,7 +175,7 @@ button {
   }
   h1{
     color: #737373!important;
-    font-family: Inter !important;
+    font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif !important;
     /* font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif !important; */
     font-size: 2.5rem;
 }
@@ -308,4 +308,26 @@ button {
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+}
+.artwork{
+  align-content: center;
+  text-align: center;
+  width: auto;
+  height: 400px;
+  max-width: 800px;
+}
+.artwork-landscape{
+  align-content: center;
+  text-align: center;
+  height: auto;
+  max-width: 700px;
+}
+@media only screen and (max-width: 900px) {
+
+  .artwork-landscape {
+    align-content: center;
+
+    height: auto;
+    width: 300px;
+  }
 }

@@ -22,9 +22,9 @@ const Component1 = `
                 <h1 class="menu">
                 <b>
 
-                    <a href="./notes.html">
+                    <a href="./art.html">
                         <b>
-                         Notes
+                         Artwork
                     </b>
                     </a>
                 </b>
@@ -75,9 +75,9 @@ const Component2 = `
     </h1 >
     <h1 class="menu">
         <b>
-            <a href="./notes.html">
+            <a href="./art.html">
                 <b>
-                    Notes
+                    Artwork
             </b>
             </a>
         </b>

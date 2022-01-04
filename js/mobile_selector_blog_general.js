@@ -1,10 +1,10 @@
 // I'm borrowing the MDN doc notation here: "mql" stands for "media query list".
 const Component1 = `
 <div class="col-md-3 ">
-    <img class="stamp" src="../img/name.png" >
+    <img class="stamp" src="./img/name.png" >
     <h1 class="menu ">
     <b>
-        <a href="../index.html" >
+        <a href="./index.html" >
             <b>
             About
         </b>
@@ -12,7 +12,7 @@ const Component1 = `
     </h1>
     <h1 class="menu ">
     <b>
-        <a href="../research.html">
+        <a href="./research.html">
             <b>
         Research
     </b>
@@ -22,16 +22,16 @@ const Component1 = `
     <h1 class="menu">
     <b>
 
-        <a href="../notes.html">
+        <a href="./art.html">
             <b>
-                Notes
+                Artwork
         </b>
         </a>
     </b>
     </h1>
     <h1 class="menu" style="color:  #b80707 !important; ">
         <b>
-            <a href="../blog.html" style="color:  #b80707 !important; ">
+            <a href="./blog.html" style="color:  #b80707 !important; ">
                 <b>
             - Blog 
         </b>
@@ -42,7 +42,7 @@ const Component1 = `
     <div class="col-md-8 desktop">
     <span style="display: inline-block">
     <div class="row mobile">                    
-        <img class ="profile_pic" src="../img/profile_circle.png" >
+        <img class ="profile_pic" src="./img/profile_circle.png" >
         <span class="peterma">
             Peter Ma
         </span>
@@ -53,10 +53,10 @@ const Component1 = `
 const Component2 = `
 <div class="row" style="padding-top:5%;">
 <div class="right_part">
-<img class="stamp" src="../img/name.png" >
+<img class="stamp" src="./img/name.png" >
     <h1 class="menu ">
     <b>
-        <a href="../index.html" >
+        <a href="./index.html" >
             <b>
             About
         </b>
@@ -64,7 +64,7 @@ const Component2 = `
     </h1>
     <h1 class="menu ">
     <b>
-        <a href="../research.html">
+        <a href="./research.html">
             <b>
         Research
     </b>
@@ -73,9 +73,9 @@ const Component2 = `
     </h1 >
     <h1 class="menu">
         <b>
-            <a href="../notes.html">
+            <a href="./art.html">
                 <b>
-                    Notes
+                    Artwork
             </b>
             </a>
         </b>
@@ -91,7 +91,7 @@ const Component2 = `
     </h1>
 </div>
 <div class="left_part">
-    <img class ="profile_pic" src="../img/profile_circle.png" >
+    <img class ="profile_pic" src="./img/profile_circle.png" >
 
 
         </div>

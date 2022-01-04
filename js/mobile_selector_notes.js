@@ -22,9 +22,9 @@ const Component1 = `
                 <h1 class="menu">
                 <b>
 
-                    <a href="./notes.html" style="color:  #b80707 !important;  ;">
+                    <a href="./art.html" style="color:  #b80707 !important;  ;">
                         <b>
-                         -Notes
+                         -Artwork
                     </b>
                     </a>
                 </b>
@@ -73,9 +73,9 @@ const Component2 = `
     </h1 >
     <h1 class="menu">
         <b>
-            <a href="./notes.html" style="color:  #b80707 !important;  ;">
+            <a href="./art.html" style="color:  #b80707 !important;  ;">
                 <b>
-                   -Notes
+                   -Artwork
             </b>
             </a>
         </b>
