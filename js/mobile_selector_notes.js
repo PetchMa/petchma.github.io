@@ -38,6 +38,15 @@ const Component1 = `
                         </a>
                     </b>
                 </h1>
+                <h1 class="menu">
+                    <b>
+                        <a href="https://peterma.ca/teaching/">
+                            <b>
+                         Teaching 
+                    </b>
+                        </a>
+                    </b>
+                </h1>
                 </div>
                 <div class="col-md-8 desktop">
                 <span style="display: inline-block">
@@ -85,6 +94,15 @@ const Component2 = `
             <a href="./blog.html">
                 <b>
                 Blog 
+        </b>
+            </a>
+        </b>
+    </h1>
+    <h1 class="menu">
+        <b>
+            <a href="https://peterma.ca/teaching/">
+                <b>
+                Teaching 
         </b>
             </a>
         </b>
