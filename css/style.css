@@ -36,6 +36,15 @@
     color: #b3b3b3;
     padding-left: 5%;
 }
+.nav-last-modified {
+    font-size: 9px;
+    color: #b3b3b3;
+    opacity: 0.7;
+    padding-left: calc(5% + 15px);
+    padding-top: 8px;
+    margin: 0;
+    font-family: source sans pro, sans-serif;
+}
 .menu a{
     /* font-family: FuturaPT,Helvetica,Arial,sans-serif; */
     font-family: source sans pro,sans-serif;
@@ -261,6 +270,10 @@ button {
   color: #b3b3b3;
   padding-left: 0%;
   padding-right: 1%;
+}
+.nav-last-modified {
+  font-size: 7px;
+  padding-left: 15px;
 }
 
 }

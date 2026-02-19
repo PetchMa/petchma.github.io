@@ -47,6 +47,7 @@ const Component1 = `
                         </a>
                     </b>
                 </h1>
+		<p class="nav-last-modified" id="nav-last-modified"></p>
 		</br>
 		
                 </div>
@@ -109,6 +110,7 @@ const Component2 = `
             </a>
         </b>
     </h1>
+    <p class="nav-last-modified" id="nav-last-modified"></p>
 </div>
 <div class="left_part">
     <img class ="profile_pic" src="./img/profile_circle.png" >
@@ -164,6 +166,8 @@ if (mobileView) {
   setNavInnerHTML(Component1);
   setAboutInnerHTML(About1);
 }
+var lastModEl = document.getElementById('nav-last-modified');
+if (lastModEl) lastModEl.textContent = 'Last modified: ' + new Date(document.lastModified).toLocaleDateString();
 
 {/* <p>
     My research specifically explores how deep neural nets like <a href="https://openreview.net/forum?id=Sy2fzU9gl">Disentangled \\(\\beta- \\)VAE's</a> can learn astrophysical parameters and signal morphology to help 
