@@ -2,6 +2,7 @@
 const Component1 = `
 <div class="col-md-3 ">
                 <img class="stamp" src="./img/name.png" >
+                <div class="nav-menu-wrap">
                 <h1 class="menu ">
                 <b>
                     <a href="./index.html" style="color:  #b80707 !important;  ;">
@@ -47,11 +48,11 @@ const Component1 = `
                         </a>
                     </b>
                 </h1>
+                </div>
 		<p class="nav-last-modified" id="nav-last-modified"></p>
 		</br>
-		
                 </div>
-                <div class="col-md-8 desktop">
+                <div class="col-md-9 desktop">
                 <span style="display: inline-block">
                 <div class="row mobile">                    
                     <img class ="profile_pic" src="./img/profile_circle.png" >
