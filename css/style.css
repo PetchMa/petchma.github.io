@@ -326,8 +326,19 @@ button {
 
   .artwork-landscape {
     align-content: center;
-
     height: auto;
     width: 300px;
+  }
+
+  /* Art page: fill more width on mobile */
+  body.art-page .mobile {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+  body.art-page .artwork,
+  body.art-page .artwork-landscape {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
   }
 }
