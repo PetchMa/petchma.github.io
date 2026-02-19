@@ -20,6 +20,15 @@ const Component1 = `
 
                 </h1 >
                 <h1 class="menu">
+                    <b>
+                        <a href="https://peterma.ca/teaching/">
+                            <b>
+                         Teaching 
+                    </b>
+                        </a>
+                    </b>
+                </h1>
+                <h1 class="menu">
                 <b>
 
                     <a href="./art.html">
@@ -34,15 +43,6 @@ const Component1 = `
                         <a href="./blog.html">
                             <b>
                          Blog 
-                    </b>
-                        </a>
-                    </b>
-                </h1>
-                <h1 class="menu">
-                    <b>
-                        <a href="https://peterma.ca/teaching/">
-                            <b>
-                         Teaching 
                     </b>
                         </a>
                     </b>
@@ -84,6 +84,15 @@ const Component2 = `
     </h1 >
     <h1 class="menu">
         <b>
+            <a href="https://peterma.ca/teaching/">
+                <b>
+                Teaching 
+        </b>
+            </a>
+        </b>
+    </h1>
+    <h1 class="menu">
+        <b>
             <a href="./art.html">
                 <b>
                     Artwork
@@ -96,15 +105,6 @@ const Component2 = `
             <a href="./blog.html">
                 <b>
                 Blog 
-        </b>
-            </a>
-        </b>
-    </h1>
-    <h1 class="menu">
-        <b>
-            <a href="https://peterma.ca/teaching/">
-                <b>
-                Teaching 
         </b>
             </a>
         </b>
